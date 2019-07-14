@@ -1,0 +1,33 @@
+{
+  "name": "lnk-shrtnr",
+  "version": "1.0.0",
+  "description": "URL Shortener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ad3m3r5/lnk-shrtnr.git"
+  },
+  "author": "ad3m3r5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ad3m3r5/lnk-shrtnr/issues"
+  },
+  "homepage": "https://github.com/ad3m3r5/lnk-shrtnr#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1",
+    "nanoid": "^2.0.3",
+    "url-parse": "^1.4.7"
+  }
+}

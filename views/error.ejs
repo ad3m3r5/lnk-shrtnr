@@ -1,0 +1,20 @@
+<% include partials/header %>
+        <header class="masthead"  style="position:absolute;top:0;width:100%;height:85%">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Lnk Shrtnr</h1>
+                    <br />
+                    <div class="alert alert-secondary">
+                        <h3>404 ERROR</h3>
+                        <p>The page you have requested could not be found</p>
+                    </div>
+
+                    <% if(typeof message != 'undefined' && message.length > 0) { %>
+                        <div class="alert alert-secondary"><%- message %></div>
+                    <% } %>
+
+                </div>
+            </div>
+        </header>
+<% include partials/footer %>
+

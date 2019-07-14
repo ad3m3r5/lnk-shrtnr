@@ -1,0 +1,24 @@
+<% include partials/header %>
+        <header class="masthead"  style="position:absolute;top:0;width:100%;height:85%">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Lnk Shrtnr</h1>
+                    <br />
+                    <form action="/" method="post">
+                        <div class="form-group">
+                            <input type="text" id="urlbox" class="form-control" name="urltxt" placeholder="Your URL" autocomplete="off" autofocus>
+                            <br />
+                            <button type="submit" class="btn btn-primary">Shorten</button>
+                        </div>
+                    </form>
+
+                    <% if(typeof message != 'undefined' && message.length > 0 && typeof messageL != 'undefined' && messageL.length > 0) { %>
+                        <div class="alert alert-secondary"><a href="<%- messageL %>" target="_blank"><%- message %></a></div>
+                    <% } else if(typeof message != 'undefined' && message.length > 0) { %>
+                        <div class="alert alert-secondary"><%- message %></div>
+                    <% } %>
+
+                </div>
+            </div>
+        </header>
+<% include partials/footer %>
