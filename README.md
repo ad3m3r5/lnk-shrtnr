@@ -1,5 +1,5 @@
 # lnk-shrtnr
-NodeJS URL shortener. Could it be built better and easier?.... probably, but I made this when I first started working with NodeJS. Feel free to use it, modify it, and let me know what you think.
+NodeJS URL shortener that I made when I first started working with NodeJS, but just now uploading it. Could it be built better and easier?.... most definitely. Feel free to use it, modify it, and let me know what you think.
 
 ## Why?
 When I first started working with NodeJS, I wanted to build something simple but useful. I remembered how much I used link shorteners for various tasks, so I decided to make one.
